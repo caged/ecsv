@@ -1,0 +1,9 @@
+{
+  "name": "ecsv",
+  "description": "Streaming CSV parser capable of handling millions of rows",
+  "version": "0.3.0",
+  "author": "Justin Palmer <justin@labratrevenge.com>",
+  "keywords": ["csv", "tsv"],
+  "directories": { "lib": "./lib/ecsv" },
+  "engines": { "node": ">= 0.2.0" }
+}
