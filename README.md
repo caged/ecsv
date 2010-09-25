@@ -1,4 +1,9 @@
-Non-blocking, streaming CSV parser.
+Streaming CSV parser.  
+
+Beyond the basics, ecsv supports:
+  * Custom quote characters
+  * Custom separator
+  * Headers in separate file
 
 # FAST
 Parses about 24,700 rows per second in my rudimentary tests.
