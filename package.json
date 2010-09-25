@@ -1,9 +1,12 @@
 {
   "name": "ecsv",
   "description": "Streaming CSV parser capable of handling millions of rows",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": "Justin Palmer <justin@labratrevenge.com>",
+  "url": "http://labratrevenge.com",
   "keywords": ["csv", "tsv"],
-  "directories": { "lib": "./lib/ecsv" },
-  "engines": { "node": ">= 0.2.0" }
+  "directories": { "lib": "./lib/" },
+  "engines": { "node": ">= 0.2.0" },
+  "main": "./lib/ecsv",
+  "repository": {"type": "git", "url":"git://github.com/Caged/ecsv.git" }
 }
